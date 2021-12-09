@@ -1,0 +1,38 @@
+html {
+    background-color: #9cb60b;
+}
+header {
+    background-color: #b0c4de;
+    padding: 10px;
+    height: 120px;
+    margin: 0 auto;
+}
+body{
+    background-color:rgb(17, 228, 175);
+}
+a {
+    margin: 0 5px;
+   
+}
+#img1 {
+    width: 70%;
+}
+tab {
+    background-color: rgb(68, 153, 153);
+}
+.slider {
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.slide > img {
+    max-width: 95%;
+}
+@media only screen and (max-width: 480px) {
+    .slide > img {
+        max-width: 95%;
+    }
+    .slide{
+        margin: 10px;
+    }
+}
